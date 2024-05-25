@@ -1,0 +1,126 @@
+.container{
+    background-color: blanchedalmond;
+    border: 3px solid rgb(136, 134, 135);
+    height: 300px;
+    width: 1416px;
+    text-align: center;
+     
+}
+body{
+    margin: 0px;
+   
+}
+nav{
+    background-color: rgb(81, 78, 83);
+    display: flex;
+    
+}
+.menu-btn:hover{
+    background-color: rgb(86, 225, 88);
+    color: black;
+}
+
+nav a{
+    float: left;
+    /* height: 45px;
+    width: 1200px; */
+    /* width: 1417px; */
+    /* display: block; */
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    /* display: block; */
+}
+h2{
+    
+}
+.section{
+   
+    /* margin-left: auto; */
+    display: flex;
+    
+}
+h2{
+    padding-top: 22px;
+    text-align: center;
+}
+.J{
+    padding-bottom: 15px;
+}
+section h2 {
+   background-color: rgb(255, 207, 119);
+   border-radius: 20px;
+  
+}
+iframe{
+    padding: 0px 2px;
+}
+.profile-name{
+    font-size: 1.3em;
+    font-weight: 900px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+}
+.sm-handle a {
+    background-color: rgb(178, 178, 178);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+
+}
+#A:hover{
+    background-color: rgb(86, 225, 88);
+    color: black; 
+}
+.flex-align-right{
+    margin-left: auto;
+}
+.J:hover{
+    color: rgb(51, 14, 217);
+}
+
+
+img{
+    border-radius: 50%;
+    height: 150px;
+    /* height: 800px; */
+    width: 150px;
+}
+
+.intro{
+    text-align: center;
+    padding: 20px;
+}
+
+.C{
+    background-color: blanchedalmond;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    /* width: 200px; */
+    text-align: center;
+    margin: 30px;
+    padding-left: 200px;
+    padding: 30px;
+}
+
+
+
+.banner{
+    display: flex;
+    background-image: url(/logo/logo-1.png);
+    height: 20vw;
+    min-height: 100px;
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: 50%;
+     /* background-color: black; */
+     background-attachment: fixed;
+}
+@media screen and (max-width:700px){
+    nav{
+        flex-direction: column;
+    }
+}
